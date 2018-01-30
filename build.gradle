@@ -1,3 +1,4 @@
+
 apply plugin: 'com.android.application'
 
 android {
@@ -7,7 +8,7 @@ android {
     defaultConfig {
         applicationId "com.jeeb.myapplication"
         minSdkVersion 16
-        targetSdkVersion 26
+        targetSdkVersion 23
         versionCode 1
         versionName "1.0"
     }
@@ -47,4 +48,25 @@ dependencies {
     compile 'com.google.android.gms:play-services-location:11.0.4'
     compile 'com.google.android.exoplayer:exoplayer:r2.5.0'
     testCompile 'junit:junit:4.12'
+}
+
+buildscript {
+    repositories {
+        maven { url 'https://maven.google.com' }
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+
+        // NOTE: Do not place your application dependencies here;
+        // they belong in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
 }
