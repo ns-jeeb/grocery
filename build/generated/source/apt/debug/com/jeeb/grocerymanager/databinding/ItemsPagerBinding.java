@@ -15,15 +15,18 @@ public class ItemsPagerBinding extends android.databinding.ViewDataBinding  {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
         sViewsWithIds.put(R.id.title_inner, 1);
-        sViewsWithIds.put(R.id.horizontal_items_recyclView, 2);
+        sViewsWithIds.put(R.id.title_inner2, 2);
+        sViewsWithIds.put(R.id.horizontal_items_recyclView, 3);
     }
     // views
     @NonNull
     public final android.support.v7.widget.RecyclerView horizontalItemsRecyclView;
     @NonNull
-    private final android.widget.LinearLayout mboundView0;
+    private final android.widget.RelativeLayout mboundView0;
     @NonNull
     public final android.widget.TextView titleInner;
+    @NonNull
+    public final android.widget.TextView titleInner2;
     // variables
     // values
     // listeners
@@ -31,11 +34,12 @@ public class ItemsPagerBinding extends android.databinding.ViewDataBinding  {
 
     public ItemsPagerBinding(@NonNull android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
         super(bindingComponent, root, 0);
-        final Object[] bindings = mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds);
-        this.horizontalItemsRecyclView = (android.support.v7.widget.RecyclerView) bindings[2];
-        this.mboundView0 = (android.widget.LinearLayout) bindings[0];
+        final Object[] bindings = mapBindings(bindingComponent, root, 4, sIncludes, sViewsWithIds);
+        this.horizontalItemsRecyclView = (android.support.v7.widget.RecyclerView) bindings[3];
+        this.mboundView0 = (android.widget.RelativeLayout) bindings[0];
         this.mboundView0.setTag(null);
         this.titleInner = (android.widget.TextView) bindings[1];
+        this.titleInner2 = (android.widget.TextView) bindings[2];
         setRootTag(root);
         // listeners
         invalidateAll();

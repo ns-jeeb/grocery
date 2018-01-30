@@ -9,14 +9,22 @@ class DataBinderMapper  {
         switch(layoutId) {
                 case com.jeeb.grocerymanager.R.layout.items_pager:
                     return com.jeeb.grocerymanager.databinding.ItemsPagerBinding.bind(view, bindingComponent);
+                case com.jeeb.grocerymanager.R.layout.fragment_demo_list:
+                    return com.jeeb.grocerymanager.databinding.FragmentDemoListBinding.bind(view, bindingComponent);
                 case com.jeeb.grocerymanager.R.layout.activity_main:
                     return com.jeeb.grocerymanager.databinding.ActivityMainBinding.bind(view, bindingComponent);
                 case com.jeeb.grocerymanager.R.layout.activity_pager_list:
                     return com.jeeb.grocerymanager.databinding.ActivityPagerListBinding.bind(view, bindingComponent);
+                case com.jeeb.grocerymanager.R.layout.fragment_demo_settings:
+                    return com.jeeb.grocerymanager.databinding.FragmentDemoSettingsBinding.bind(view, bindingComponent);
                 case com.jeeb.grocerymanager.R.layout.fragment_my_view_pager:
                     return com.jeeb.grocerymanager.databinding.FragmentMyViewPagerBinding.bind(view, bindingComponent);
                 case com.jeeb.grocerymanager.R.layout.fragment1_my_view_pager:
                     return com.jeeb.grocerymanager.databinding.Fragment1MyViewPagerBinding.bind(view, bindingComponent);
+                case com.jeeb.grocerymanager.R.layout.layout_item_demo:
+                    return com.jeeb.grocerymanager.databinding.LayoutItemDemoBinding.bind(view, bindingComponent);
+                case com.jeeb.grocerymanager.R.layout.fragment_bottom_tab:
+                    return com.jeeb.grocerymanager.databinding.FragmentBottomTabBinding.bind(view, bindingComponent);
                 case com.jeeb.grocerymanager.R.layout.items:
                     return com.jeeb.grocerymanager.databinding.ItemsBinding.bind(view, bindingComponent);
                 case com.jeeb.grocerymanager.R.layout.created_items:
@@ -41,6 +49,12 @@ class DataBinderMapper  {
                 }
                 break;
             }
+            case 779228417: {
+                if(tag.equals("layout/fragment_demo_list_0")) {
+                    return com.jeeb.grocerymanager.R.layout.fragment_demo_list;
+                }
+                break;
+            }
             case 423753077: {
                 if(tag.equals("layout/activity_main_0")) {
                     return com.jeeb.grocerymanager.R.layout.activity_main;
@@ -53,6 +67,12 @@ class DataBinderMapper  {
                 }
                 break;
             }
+            case -1494619578: {
+                if(tag.equals("layout/fragment_demo_settings_0")) {
+                    return com.jeeb.grocerymanager.R.layout.fragment_demo_settings;
+                }
+                break;
+            }
             case 440678947: {
                 if(tag.equals("layout/fragment_my_view_pager_0")) {
                     return com.jeeb.grocerymanager.R.layout.fragment_my_view_pager;
@@ -62,6 +82,18 @@ class DataBinderMapper  {
             case 1081511882: {
                 if(tag.equals("layout/fragment1_my_view_pager_0")) {
                     return com.jeeb.grocerymanager.R.layout.fragment1_my_view_pager;
+                }
+                break;
+            }
+            case 693879024: {
+                if(tag.equals("layout/layout_item_demo_0")) {
+                    return com.jeeb.grocerymanager.R.layout.layout_item_demo;
+                }
+                break;
+            }
+            case -1767729316: {
+                if(tag.equals("layout/fragment_bottom_tab_0")) {
+                    return com.jeeb.grocerymanager.R.layout.fragment_bottom_tab;
                 }
                 break;
             }

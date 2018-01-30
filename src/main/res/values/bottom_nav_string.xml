@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tab_1"/>
+    <string name="tab_2"/>
+    <string name="tab_4"/>
+    <string name="default_item_1">@null</string>
+    <string name="tab_5"/>
+    <string name="menu_1"/>
+    <string name="menu_2"/>
+    <string name="menu_3"/>
+    <string name="menu_4"/>
+    <string name="menu_5"/>
+</resources>

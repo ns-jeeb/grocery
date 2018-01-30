@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_my_view_pager.xml",
+        "source": "/Users/najeebsakhizada/Desktop/grocery/app/src/main/res/layout/fragment_my_view_pager.xml"
+    },
+    {
+        "merged": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_demo_list.xml",
+        "source": "/Users/najeebsakhizada/Desktop/grocery/app/src/main/res/layout/fragment_demo_list.xml"
+    },
+    {
+        "merged": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/created_items.xml",
+        "source": "/Users/najeebsakhizada/Desktop/grocery/app/src/main/res/layout/created_items.xml"
+    },
+    {
+        "merged": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/items.xml",
+        "source": "/Users/najeebsakhizada/Desktop/grocery/app/src/main/res/layout/items.xml"
+    },
+    {
+        "merged": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_bottom_tab.xml",
+        "source": "/Users/najeebsakhizada/Desktop/grocery/app/src/main/res/layout/fragment_bottom_tab.xml"
+    },
+    {
+        "merged": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_pager_list.xml",
+        "source": "/Users/najeebsakhizada/Desktop/grocery/app/src/main/res/layout/activity_pager_list.xml"
+    },
+    {
+        "merged": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment1_my_view_pager.xml",
+        "source": "/Users/najeebsakhizada/Desktop/grocery/app/src/main/res/layout/fragment1_my_view_pager.xml"
+    },
+    {
+        "merged": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/layout_item_demo.xml",
+        "source": "/Users/najeebsakhizada/Desktop/grocery/app/src/main/res/layout/layout_item_demo.xml"
+    },
+    {
+        "merged": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_demo_settings.xml",
+        "source": "/Users/najeebsakhizada/Desktop/grocery/app/src/main/res/layout/fragment_demo_settings.xml"
+    },
+    {
+        "merged": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/items_pager.xml",
+        "source": "/Users/najeebsakhizada/Desktop/grocery/app/src/main/res/layout/items_pager.xml"
+    },
+    {
+        "merged": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/najeebsakhizada/Desktop/grocery/app/src/main/res/layout/activity_main.xml"
+    }
+]
