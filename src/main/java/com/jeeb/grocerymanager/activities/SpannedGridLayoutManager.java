@@ -335,6 +335,7 @@ public class SpannedGridLayoutManager extends RecyclerView.LayoutManager {
                 spanInfo = getSpanInfoFromAttachedView(position);
             }
 
+
             if (spanInfo.columnSpan > columns) {
                 spanInfo.columnSpan = columns; // or should we throw?
             }
