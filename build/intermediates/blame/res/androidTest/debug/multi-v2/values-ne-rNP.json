@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ne-rNP/values-ne-rNP.xml",
+            "outputFile": "C:\\Users\\Jeeb\\Documents\\grocery\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
             "map": [
                 {
-                    "source": "/Users/najeebsakhizada/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.0.aar/1c3219898ddf5644132c79ae9d5be2ae/res/values-ne-rNP/values-ne-rNP.xml",
+                    "source": "C:\\Users\\Jeeb\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-r2.5.0.aar\\0f5b1bee807cf3e4b880d711849a8b38\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app-app.iml" filepath="$PROJECT_DIR$/app/app-app.iml" />
+      <module fileurl="file://C:\Users\Jeeb\Documents\grocery\app\app-app.iml" filepath="C:\Users\Jeeb\Documents\grocery\app\app-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grocery.iml" filepath="$PROJECT_DIR$/grocery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/grocery-app.iml" filepath="$PROJECT_DIR$/app/grocery-app.iml" />
     </modules>
   </component>
 </project>

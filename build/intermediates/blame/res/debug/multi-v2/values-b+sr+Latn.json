@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "C:\\Users\\Jeeb\\Documents\\grocery\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
             "map": [
                 {
-                    "source": "/Users/najeebsakhizada/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-r2.5.0.aar/1c3219898ddf5644132c79ae9d5be2ae/res/values-b+sr+Latn/values-b+sr+Latn.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,139,213,280,346,426,503,590,669,747",
-                        "endColumns": "83,73,66,65,79,76,86,78,77,68",
-                        "endOffsets": "134,208,275,341,421,498,585,664,742,811"
-                    },
-                    "to": {
-                        "startLines": "21,22,23,24,25,26,27,28,29,30",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2018,2102,2176,2243,2309,2389,2466,2553,2632,2710",
-                        "endColumns": "83,73,66,65,79,76,86,78,77,68",
-                        "endOffsets": "2097,2171,2238,2304,2384,2461,2548,2627,2705,2774"
-                    }
-                },
-                {
-                    "source": "/Users/najeebsakhizada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/968c81bc8c67fb625fc59d96017f6fed/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "source": "C:\\Users\\Jeeb\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\922fe3cb4dd78c371deccd710525e727\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "55,164,272,395,499,605,691,795,913,995,1076,1164,1270,1378,1479,1584,1692,1793,1921,2779,2863",
                         "endColumns": "108,107,122,103,105,85,103,117,81,80,87,105,107,100,104,107,100,127,96,83,100",
                         "endOffsets": "159,267,390,494,600,686,790,908,990,1071,1159,1265,1373,1474,1579,1687,1788,1916,2013,2858,2959"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Jeeb\\.gradle\\caches\\transforms-1\\files-1.1\\exoplayer-ui-r2.5.0.aar\\0f5b1bee807cf3e4b880d711849a8b38\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,139,213,280,346,426,503,590,669,747",
+                        "endColumns": "83,73,66,65,79,76,86,78,77,68",
+                        "endOffsets": "134,208,275,341,421,498,585,664,742,811"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24,25,26,27,28,29,30",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2018,2102,2176,2243,2309,2389,2466,2553,2632,2710",
+                        "endColumns": "83,73,66,65,79,76,86,78,77,68",
+                        "endOffsets": "2097,2171,2238,2304,2384,2461,2548,2627,2705,2774"
                     }
                 }
             ]

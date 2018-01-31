@@ -1,5 +1,6 @@
 package com.jeeb.grocerymanager.fragments;
 
+import android.annotation.SuppressLint;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -19,6 +20,7 @@ import com.jeeb.grocerymanager.data.DataParser;
 import com.jeeb.grocerymanager.databinding.FragmentBottomTabBinding;
 import com.jeeb.grocerymanager.databinding.FragmentMyViewPagerBinding;
 import com.jeeb.grocerymanager.databinding.ItemsPagerBinding;
+import com.jeeb.grocerymanager.databinding.TestBinding;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,11 +49,18 @@ public class GrainFragment extends Fragment {
         integers.add(3);
         integers.add(4);
         integers.add(5);
-        integers.add(6);
-        integers.add(7);
-        integers.add(8);
-        integers.add(9);
-        integers.add(10);
+//        integers.add(6);
+//        integers.add(7);
+//        integers.add(8);
+//        integers.add(9);
+//        integers.add(10);
+
+        if (integers.size() % 6 == 4) {
+            integers.add(null);
+            integers.add(null);
+        }
+
+
 
 //        Bundle bundle = getArguments();
 //        mItems = bundle.getStringArrayList(KEY_GRAIN);
@@ -96,12 +105,52 @@ public class GrainFragment extends Fragment {
             return new IntegerViewHolder(parent);
         }
 
+        @SuppressLint("SetTextI18n")
         @Override
         public void onBindViewHolder(IntegerViewHolder holder, int position) {
-            holder.binding.titleInner.setText(mIntegers.get(position).toString());
+
+            Integer value = mIntegers.get(position);
+
+            if (position % 6 == 3) {
+                if (position + 1 < mIntegers.size()) {
+                    value = mIntegers.get(position + 1);
+                }
+            } else if (position % 6 == 4) {
+                if (position -1 >= 0) {
+                    value = mIntegers.get(position - 1);
+                }
+            }
+
+            if (value != null) {
+                holder.binding.testText.setVisibility(View.VISIBLE);
+                holder.binding.testText.setText("index: " + position + "\nValue: " + value);
+            } else {
+                holder.binding.testText.setVisibility(View.GONE);
+            }
+
         }
 
+        public int reversIndex(int position){
 
+            if (position == 3){
+                return 4;
+            }else if (position ==4){
+                return 5;
+            }
+            else if (position == 5){
+                return 3;
+            } else if (position == 9){
+                return 0;
+            } else if (position == 10){
+                return 0;
+            } else if (position == 11){
+                return 9;
+            }
+            else {
+               return position;
+            }
+
+        }
         @Override
         public int getItemCount() {
             return mIntegers.size();
@@ -109,14 +158,12 @@ public class GrainFragment extends Fragment {
     }
 
     public class IntegerViewHolder extends RecyclerView.ViewHolder {
-        public ItemsPagerBinding binding;
+        public TestBinding binding;
         AdapterHelper adapterHelper;
         public IntegerViewHolder(ViewGroup parent) {
-            super(LayoutInflater.from(parent.getContext()).inflate(R.layout.items_pager,parent,false));
+            super(LayoutInflater.from(parent.getContext()).inflate(R.layout.test,parent,false));
             adapterHelper = new AdapterHelper(parent.getContext());
             binding = DataBindingUtil.bind(itemView);
-
-
         }
     }
 

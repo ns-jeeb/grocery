@@ -324,7 +324,6 @@ public class SpannedGridLayoutManager extends RecyclerView.LayoutManager {
         recordSpannedRowStartPosition(row, column);
         int[] rowHWM = new int[columns]; // row high water mark (per column)
         for (int position = 0; position < itemCount; position++) {
-
             SpanInfo spanInfo;
             int adapterPosition = recycler.convertPreLayoutPositionToPostLayout(position);
             if (adapterPosition !=  RecyclerView.NO_POSITION) {
@@ -334,12 +333,9 @@ public class SpannedGridLayoutManager extends RecyclerView.LayoutManager {
                 // as we can't get from the lookup (adapter)
                 spanInfo = getSpanInfoFromAttachedView(position);
             }
-
-
             if (spanInfo.columnSpan > columns) {
                 spanInfo.columnSpan = columns; // or should we throw?
             }
-
             // check horizontal space at current position else start a new row
             // note that this may leave gaps in the grid; we don't backtrack to try and fit
             // subsequent cells into gaps. We place the responsibility on the adapter to provide
@@ -349,7 +345,6 @@ public class SpannedGridLayoutManager extends RecyclerView.LayoutManager {
                 recordSpannedRowStartPosition(row, position);
                 column = 0;
             }
-
             // check if this cell is already filled (by previous spanning cell)
             while (rowHWM[column] > row) {
                 column++;
@@ -359,7 +354,6 @@ public class SpannedGridLayoutManager extends RecyclerView.LayoutManager {
                     column = 0;
                 }
             }
-
             // by this point, cell should fit at [column, row]
             cells.put(position, new GridCell(row, spanInfo.rowSpan, column, spanInfo.columnSpan));
 
@@ -367,7 +361,6 @@ public class SpannedGridLayoutManager extends RecyclerView.LayoutManager {
             for (int columnsSpanned = 0; columnsSpanned < spanInfo.columnSpan; columnsSpanned++) {
                 rowHWM[column + columnsSpanned] = row + spanInfo.rowSpan;
             }
-
             // if we're spanning rows then record the 'first child position' as the first item
             // *in the row the spanned item starts*. i.e. the position might not actually sit
             // within the row but it is the earliest position we need to render in order to fill
@@ -379,7 +372,6 @@ public class SpannedGridLayoutManager extends RecyclerView.LayoutManager {
                     recordSpannedRowStartPosition(spannedRow, rowStartPosition);
                 }
             }
-
             // increment the current position
             column += spanInfo.columnSpan;
         }

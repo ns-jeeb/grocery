@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "C:\\Users\\Jeeb\\Documents\\grocery\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/najeebsakhizada/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/3079223fef72d66e83886a6379e97caf/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/Users/najeebsakhizada/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/968c81bc8c67fb625fc59d96017f6fed/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\Jeeb\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.0.2.aar\\922fe3cb4dd78c371deccd710525e727\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Jeeb\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.0.2.aar\\269e74f09245fc8ad3082a3bf6fdae78\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]

@@ -17,10 +17,12 @@ class DataBinderMapper  {
                     return com.jeeb.grocerymanager.databinding.ActivityPagerListBinding.bind(view, bindingComponent);
                 case com.jeeb.grocerymanager.R.layout.fragment_demo_settings:
                     return com.jeeb.grocerymanager.databinding.FragmentDemoSettingsBinding.bind(view, bindingComponent);
-                case com.jeeb.grocerymanager.R.layout.fragment_my_view_pager:
-                    return com.jeeb.grocerymanager.databinding.FragmentMyViewPagerBinding.bind(view, bindingComponent);
                 case com.jeeb.grocerymanager.R.layout.fragment1_my_view_pager:
                     return com.jeeb.grocerymanager.databinding.Fragment1MyViewPagerBinding.bind(view, bindingComponent);
+                case com.jeeb.grocerymanager.R.layout.fragment_my_view_pager:
+                    return com.jeeb.grocerymanager.databinding.FragmentMyViewPagerBinding.bind(view, bindingComponent);
+                case com.jeeb.grocerymanager.R.layout.test:
+                    return com.jeeb.grocerymanager.databinding.TestBinding.bind(view, bindingComponent);
                 case com.jeeb.grocerymanager.R.layout.layout_item_demo:
                     return com.jeeb.grocerymanager.databinding.LayoutItemDemoBinding.bind(view, bindingComponent);
                 case com.jeeb.grocerymanager.R.layout.fragment_bottom_tab:
@@ -73,15 +75,21 @@ class DataBinderMapper  {
                 }
                 break;
             }
+            case 1081511882: {
+                if(tag.equals("layout/fragment1_my_view_pager_0")) {
+                    return com.jeeb.grocerymanager.R.layout.fragment1_my_view_pager;
+                }
+                break;
+            }
             case 440678947: {
                 if(tag.equals("layout/fragment_my_view_pager_0")) {
                     return com.jeeb.grocerymanager.R.layout.fragment_my_view_pager;
                 }
                 break;
             }
-            case 1081511882: {
-                if(tag.equals("layout/fragment1_my_view_pager_0")) {
-                    return com.jeeb.grocerymanager.R.layout.fragment1_my_view_pager;
+            case 751982152: {
+                if(tag.equals("layout/test_0")) {
+                    return com.jeeb.grocerymanager.R.layout.test;
                 }
                 break;
             }

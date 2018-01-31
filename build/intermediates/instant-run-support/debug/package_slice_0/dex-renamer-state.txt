@@ -1,4 +1,4 @@
-#Tue Jan 30 16:19:10 EST 2018
-base.0=/Users/najeebsakhizada/Desktop/grocery/app/build/intermediates/transforms/dexMerger/debug/0
+#Tue Jan 30 22:31:42 EST 2018
+base.0=C\:\\Users\\Jeeb\\Documents\\grocery\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
